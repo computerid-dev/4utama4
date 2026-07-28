@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
+
+# Environment variables (JANGAN pernah commit ini - berisi kredensial Firebase & password admin)
+.env
+.env.local
+.env*.local
+
+# Firebase service account (kalau disimpan sebagai file, jangan pernah commit)
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
